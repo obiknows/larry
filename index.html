@@ -1,0 +1,2467 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Larry, Legal Advice, ">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" id="ppstyle" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/> 
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+    <link rel='stylesheet' href='./css/animate.css' />
+    <link rel='stylesheet' href='./css/font-awesome.min.css' />
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <link rel='stylesheet' href='./css/ionicons.min.css' />
+    <script src="./js/blocs.js"></script>
+    <script src='./js/jqBootstrapValidation.js'></script>
+    <script src='./js/formHandler.js'></script>
+    <script src='./js/t.js'></script>
+    <script src='./js/scrollReveal.js'></script>
+    <script src="./slick/slick.min.js"></script>
+    <script src="./js/chat.js" type="text/javascript" ></script>
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <script src="./js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/chat.css">
+    <title>
+        larry. by LawTrades
+    </title>
+</head>
+
+<body>
+    <style>
+    /* Curves */
+        #curveUpColor path,
+        #curveDownColor path {
+        fill:  #39ae9d;
+        stroke: #39ae9d;
+    }
+    /* Clouds */
+        #clouds path {
+        fill: #39ae9d;
+        stroke: #39ae9d;
+    }
+    .panel {
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 100px !important;
+        text-align: center;
+        background-color:#f3f0f0 !important;
+        }
+    .t-caret {
+        /*caret color*/
+        
+        color: #283a44;
+        opacity: 0.6;
+        margin-left: -5px;
+        display: inline-block;
+    }
+    
+    .vis {
+        visibility: hidden;
+    }
+    [data-sr] { visibility: hidden; }
+
+    
+    </style>
+    <!-- Main container -->
+    <div class="page-container">
+        <!-- Hero Bloc -->
+        <div id="hero-bloc" class="bloc hero bg-larryback bgc-5 l-bloc">
+            <div class="container bloc-sm hero-nav">
+                <nav class="navbar row">
+                    <div class="navbar-header">
+                        <a class="navbar-brand animDelay3 flipInX animated" href="index.html">
+                            <strong>larry</strong>
+                        </a>
+                        <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+                            <span class="sr-only">
+              Toggle navigation
+            </span>
+                            <span class="icon-bar">
+            </span>
+                            <span class="icon-bar">
+            </span>
+                            <span class="icon-bar">
+            </span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-1">
+                        <ul class="site-navigation nav pull-right">
+                            <li>
+                                <a href="pricing.html" class="ltc-1 flipInY animDelay3 animated">
+                     <!--   Pricing 
+              </a> -->
+                            </li>
+                            <li>
+                                <a class="ltc-1 flipInY animDelay3 animated"
+                                onclick="scrollToTarget('#bloc-19')">
+                        <!-- Testimonials 
+              </a>
+                            </li> -->
+                            <!-- HIDDEN ABOUT <li>
+                                <a href="about.html" class="ltc-1 flipInY animDelay3 animated">
+                		About 
+              </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="v-center text-center">
+                <div class="vc-content">
+                    <br />
+                    <h1 class=" tc-6" id="typewrite" >
+        Hi there, I&rsquo;m <strong>larry.</strong><span class="t-caret">|</span></h1>
+                    <h3 class=" tc-6 animDelay3 mg-clear flipInX animated">
+        Text me to get legal stuff done on demand without any hassle
+      </h3>
+                    <br />
+                    <br />
+                    <br />
+                    <a class="btn btn-lg btn-fill-2 animDelay3 wire-btn-c-2 flipInX animated" type="button" 
+                    data-toggle="modal" data-target="#signUp">
+        <strong>Sign Up Free</strong>
+      </a>
+                    <!-- opens choice modal w/ buttons -->
+                    <a class="btn btn-lg btn-wire animDelay3 wire-btn-c-1 flipInX animated" type="button" 
+                    data-toggle="modal" data-target="#howItWorks">
+        <strong>How It Works</strong>
+      </a>
+                    <!-- opens how it works modal -->
+                </div>
+            </div>
+        </div>
+        <!-- Hero Bloc END -->
+        <!-- CurveDown-->
+        <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 0 C 50 100 80 100 100 0 Z"/>
+            </svg>
+        <!-- CurveDown END-->
+        <!-- Pricing Modal -->
+					<div id="pricingModal" class="modal fade">
+					    <div class="modal-dialog modal-lg">
+					        <div class="modal-content">
+					            <div class="modal-body">
+					               <button type="button" class="close" 
+					                data-dismiss="modal">&times;</button>
+					                <div class="container-fluid">
+					                	<div class="row">
+					                		<br /><br />
+                                                <h2 class="text-center  mg-clear ">
+                        					   <strong>Which Suits You?</strong>
+                      					         </h2>
+                      					<div>
+                      						<br /><br /><br /><br />
+                      					</div>
+                      					
+                      					<div class="col-sm-12">
+							                    <div class="col-md-6">
+							                    	<a type="button" data-toggle="modal" data-target="#famModal">
+							                        <img src="img/home_button.png" />
+							                      </a>  
+							                    </div>
+							                    <div class="col-md-6">
+							                    	<a type="button" data-toggle="modal" data-target="#bizModal">
+							                        <img src="img/business_button.png"  />
+							                      </a>  
+							                    </div>
+							                   </div>
+							                </div>
+					                </div>
+					            </div>
+					        </div> <!--modal-content-->
+					    </div> <!--modal-dialog-->
+					</div> <!--modal-->
+        <!-- Pricing Modal END -->
+        
+
+        <!-- bloc-4 -->
+            <!--signUp Modal -->
+            <div id="signUp" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-md">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="container-fluid" style="padding:0px;">
+                                
+                                   <img src="./img/sign_up_720.jpg" class="img-responsive mg-md img-lg"
+                                   style="margin-bottom:0px;max-height:100%;"> 
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- signUp Modal END -->
+     
+            <!--howItWorks Modal -->
+            <div id="howItWorks" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <!-- Modal content-->
+                    
+                        
+                        <div class="modal-content-2" >
+                            <div class="container-fluid" >
+                                <div class="row" >
+                                    <h2 class="text-center  mg-clear " style="margin-top:50px;color:#fff;">
+                                        <strong>How It Works</strong>
+                                    </h2>
+                                    <h4 class="text-center  mg-clear " style="color:#fff;margin-top:10px;">
+                                        <strong>Delegate your legal work with a simple text to larry</strong>
+                                    </h4>
+
+                                    <div class="divider-h">
+                                        <span class="divider divider-half"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="col-sm-4">
+                                        <img src="img/message.png" class="img-responsive mg-md img-rd-lg" />
+                                        <h3 class="text-center  mg-md" style="color:#fff;">
+                        <strong>Text larry</strong>
+                      </h3>
+                                        <h4 class=" text-center" style="color:#fff;">
+                                            Describe your legal situation and we’ll answer your requests 24/7
+                                        </h4>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="img/paper.png" class="img-responsive mg-md img-rd-lg" />
+                                        <h3 class="text-center mg-md " style="color:#fff;">
+                        <strong>Get what you need</strong>
+                      </h3>
+                                        <h4 class=" text-center mg-lg" style="color:#fff;">
+                                           We’ll coordinate what you need from the appropriate legal service and let you know the total price so you can confirm it
+                                        </h4>
+                                        
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="img/lock.png" class="img-responsive mg-md img-rd-lg" />
+                                        <h3 class="text-center mg-md " style="color:#fff;">
+                        <strong>Pay with ease</strong>
+                      </h3>
+                                        <h4 class=" text-center" style="color:#fff;">
+                                            Pay securely with Stripe via SMS and relax while we take of your legal work
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            <!-- howItWorks Modal END -->
+        
+    </div>
+    <!-- bloc-4 END -->
+
+    <!--Biz Modal -->
+
+    <div id="bizModal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+               <button type="button" class="close" 
+                data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+                       
+                    
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class=" text-center mg-clear">
+            <strong>
+              Business Pricing Guide
+            </strong>
+          </h2>
+                    </div>
+                </div>
+                <div class="row voffset">
+                    <div class="col-sm-12">
+                        <h4 class="text-center mg-sm ">
+            Honest prices, with no surprise fees.
+            <br />
+            Start free no credit card required.
+          </h4>
+                    </div>
+                </div>
+                <div class="row voffset">
+                    <div class="col-sm-3">
+	                    <a type="button" data-toggle="modal" data-target="#freeBizModal">
+	                      <img src="img/Free%20Biz1.png" class="img-responsive" />
+	                    </a>
+                    </div>
+                    <div class="col-sm-3">
+                    	<a type="button" data-toggle="modal" data-target="#bootBizModal">
+                        <img src="img/Bootstrap%20Biz.png" class="img-responsive" />
+                      </a>  
+                    </div>
+                    <div class="col-sm-3">
+                    	<a type="button" data-toggle="modal" data-target="#startBizModal">
+                        <img src="img/Startup%20Biz.png" class="img-responsive" />
+                      </a>
+                    </div>
+                    <div class="col-sm-3">
+                    	<a type="button" data-toggle="modal" data-target="#growthBizModal">
+                        <img src="img/Growth%20Biz.png" class="img-responsive" />
+                      </a>
+                    </div>
+                </div>
+                <div class="row voffset">
+                    <div class="col-sm-3">
+                        <h4 class="mg-md" style="color:#FF006D;">
+            <strong>
+              Free
+            </strong>
+            includes
+            <br />
+            All of these great features
+          </h4>
+                        <p class="">
+                            ◦ Instant connection to lawyers for
+                            <br /> hire via SMS
+                            <br /> ◦ Smart Business compliance
+                            <br /> reminders.
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4 class="mg-md " style="color:#4ECDC4;">
+            <strong>
+              Bootstrap
+            </strong>
+            includes
+            <br />
+            All of these great features
+          </h4>
+                        <p class="">
+                            ◦
+                            <strong>
+              All Free features plus :
+            </strong>
+                            <br /> ◦ Protection for just you.
+                            <br /> ◦ Instant advice from attorneys in your
+                            <br /> state via SMS.
+                            <br /> ◦ Unlimited consultations on new legal matters.
+                            <br /> ◦ Legal document review
+                            <br /> ◦ 24/7 Emergency Assistance.
+                            <br /> ◦ Annual legal health checkup.
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4 class="mg-md" style="color:#00A0B5;">
+            <strong>
+              Startup
+            </strong>
+            includes
+            <br />
+            All of these great features:
+          </h4>
+                        <p class="">
+                            ◦
+                            <strong>
+              All Bootstrap features plus :
+            </strong>
+                            <br /> ◦ Legal consultations for business
+                            <br /> issues.
+                            <br /> ◦ 10 calls or emails per year.
+                            <br /> ◦ 10 documents reviewed per year.
+                            <br /> ◦ 25% off addtional legal services.
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4 class="mg-md" style="color:#556270;">
+            <strong>
+              Growth
+            </strong>
+            includes
+            <br />
+            All of these great features
+          </h4>
+                        <p class="">
+                            ◦
+                            <strong>
+              All Startup features plus :
+            </strong>
+                            <br /> ◦ 20 calls or emails per year.
+                            <br /> ◦ 20 documents reviewed per year.
+                            <br /> ◦ Free registered agent service.
+                            <br /> ◦ Reduced rate for post incoprtation
+                            <br /> setup.
+                        </p>
+                    </div>
+                
+            </div>
+                    
+                </div>
+            </div>
+        </div> <!--modal-content-->
+    </div> <!--modal-dialog-->
+</div> <!--modal-->
+<!--bizModal END -->
+
+<!-- famModal -->
+
+<div id="famModal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+               <button type="button" class="close" 
+                data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+               
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class=" text-center mg-clear">
+				            <strong>
+				              Family Pricing Guide
+				            </strong>
+          				</h2>
+                    </div>
+                </div>
+                
+                    <div class="col-sm-12">
+                        <h4 class="text-center mg-sm ">
+            Honest prices, with no surprise fees.
+            <br />
+            Start free no credit card required.
+          </h4>
+                    </div>
+                
+                <div class="row voffset">
+                    <div class="col-sm-4">
+                    	<a type="button" data-toggle="modal" data-target="#freeFamModal">
+                        <img src="img/Free%20Fam.png" class="center-block" width="270" height="331" />
+                      </a>
+                    </div>
+                    <div class="col-sm-4">
+                    	<a type="button" data-toggle="modal" data-target="#soloFamModal">
+                        <img src="img/Solo%20Fam.png" class="center-block" width="270" height="331" />
+                      </a>
+                    </div>
+                    <div class="col-sm-4">
+                    	<a type="button" data-toggle="modal" data-target="#famFamModal">
+                        <img src="img/Fam%20Fam.png" class="center-block" width="270" height="331" />
+                      </a>
+                    </div>
+                </div>
+                <div class="row voffset">
+                    <div class="col-sm-4">
+                        <h4 class="mg-md text-left" style="color:#A8E6CE;">
+							            <strong>
+							              Free
+							            </strong>
+							            includes
+							            <br />
+							            All of these great features
+          							</h4>
+                        <p class="">
+                            ◦ Instant connection to lawyers for hire via
+                            <br /> SMS
+                            <br /> ◦ Smart Business compliance reminders.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4 class="mg-md text-left"  style="color:#FFD3B5;">
+            <strong>
+              Solo
+            </strong>
+            includes
+            <br />
+            All of these great features
+          </h4>
+                        <p class="">
+                            ◦ All Free features plus :
+                            <br /> ◦ Protection for just you.
+                            <br /> ◦ Instant advice from attorneys in your state
+                            <br /> via SMS.
+                            <br /> ◦ Unlimited consultations on new legal
+                            <br /> matters.
+                            <br /> ◦ Legal document review
+                            <br /> ◦ 24/7 Emergency Assistance.
+                            <br /> ◦ Annual legal health checkup.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4 class="mg-md text-left"  style="color:#C06C84;">
+            <strong>
+              Family
+            </strong>
+            includes
+            <br />
+            All of these great features:
+          </h4>
+                        <p class="">
+                            ◦ All Solo features plus :
+                            <br /> ◦ Converage for yourself, your spouse/
+                            <br /> parter and one dependent.
+                            <br /> ◦ Standard Will preparation.
+                            <br /> ◦ Medicare, social sercurity and Vertarans
+                            <br /> legal advice.
+                            <br /> ◦ Save 25% of addtional legal services.
+                        </p>
+                    </div>
+                </div>
+            
+        
+                    
+                </div>
+            </div>
+        </div> <!--modal-content-->
+    </div> <!--modal-dialog-->
+</div> <!--modal-->
+
+<!-- famModal END -->
+
+    <!-- Pricing Details Modals -->
+    <div id="freeBizModal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+                    <div class="col-sm-4">
+                        <img src="img/popfreebiz.png" class="img-responsive mg-md" /> 
+                        <a class="btn wire-btn-c-16 btn-xl btn-wire btn-block" type="button" data-toggle="modal" data-target="#signUpModal">
+      										Sign Up Free
+        								</a>
+
+                    </div>
+                    <div class="col-sm-8">
+                         <h2 class="mg-md ">
+          Free Plan Details
+        </h2>
+
+                        <p class=" mg-md">Book consultations with lawyers licensed in your state on a wide variety of business law related matters that impact your company. Lawyer consultations typically last 30 minutes and each legal matter must be unique. You will also be provided with an annual legal health check up for 60 minutes.</p>
+                        <div class="panel-group" id="freebizaccordion">
+                            <div class="panel panel-default" id="panel1">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#freebizaccordion" href="#collapseOne">
+            <strong>Business questions covered</strong>
+        </a>
+      </h4>
+
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Forming your business</p>
+                                            </li>
+                                            <li>
+                                                <p>Business Operations</p>
+                                            </li>
+                                            <li>
+                                                <p>Allocating Stock</p>
+                                            </li>
+                                            <li>
+                                                <p>LLC vs. C Corp vs. S Corp</p>
+                                            </li>
+                                            <li>
+                                                <p>Business Licenses</p>
+                                            </li>
+                                            <li>
+                                                <p>Liability Protection</p>
+                                            </li>
+                                            <li>
+                                                <p>Terms of Service and Privacy Policy</p>
+                                            </li>
+                                            <li>
+                                                <p>Regulations and Compliance</p>
+                                            </li>
+                                            <li>
+                                                <p>Convertible notes and equity financing</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default" id="panel2">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#freebizaccordion" href="#collapseTwo">
+          <strong>Intellectual Property Matters</strong>
+        </a>
+      </h4>
+
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Trademark Registration</p>
+                                            </li>
+                                            <li>
+                                                <p>Copyright Registration</p>
+                                            </li>
+                                            <li>
+                                                <p>Patent filing application</p>
+                                            </li>
+                                            <li>
+                                                <p>Trademark infringement</p>
+                                            </li>
+                                            <li>
+                                                <p>Patent search</p>
+                                            </li>
+                                            <li>
+                                                <p>Patent filing opposition</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default" id="panel3">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#freebizaccordion" href="#collapseThree">
+              <strong>Free Legal Forms for Download</strong>
+            </a>
+          </h4>
+
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>NDA</p>
+                                            </li>
+                                            <li>
+                                                <p>Consulting</p>
+                                            </li>
+                                            <li>
+                                                <p>Business Services</p>
+                                            </li>
+                                            <li>
+                                                <p>Independent Contractor</p>
+                                            </li>
+                                            <li>
+                                                <p>Real Estate</p>
+                                            </li>
+                                            <li>
+                                                <p>Startup</p>
+                                            </li>
+                                            <li>
+                                                <p>Advertising/Marketing</p>
+                                            </li>
+                                            <li>
+                                                <p>and more...</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Second Grouping -->
+                            <div class="panel panel-default" id="panel4">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#freebizaccordion" href="#collapseFour">
+          <strong>Labor &amp; Employment Matters</strong>
+        </a>
+      </h4>
+
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Employment agreements</p>
+                                            </li>
+                                            <li>
+                                                <p>Discrimination and harassment</p>
+                                            </li>
+                                            <li>
+                                                <p>Wrongful termination</p>
+                                            </li>
+                                            <li>
+                                                <p>Equity compensation</p>
+                                            </li>
+                                            <li>
+                                                <p>Pensions and social security</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default" id="panel5">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#freebizaccordion" href="#collapseFive">
+            <strong>Immigration Law Matters</strong>
+        </a>
+      </h4>
+
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Obtaining immigrant visa</p>
+                                            </li>
+                                            <li>
+                                                <p>Applying for an O Visa</p>
+                                            </li>
+                                            <li>
+                                                <p>Applying for an L Visa</p>
+                                            </li>
+                                            <li>
+                                                <p>Applying for an E-2 Visa</p>
+                                            </li>
+                                            <li>
+                                                <p>Green card (application/denial)</p>
+                                            </li>
+                                            <li>
+                                                <p>Detention/Deportation/Removal defense</p>
+                                            </li>
+                                            <li>
+                                                <p>Petition for citizenship</p>
+                                            </li>
+                                            <li>
+                                                <p>and more...</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default" id="panel6">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+															        <a data-toggle="collapse" data-parent="#freebizaccordion" href="#collapseSix">
+															          <strong>Legal Document Review</strong>
+															        </a>
+      															</h4>
+                                </div>
+                                <div id="collapseSix" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Get up to 10 pages of a legal document reviewed by signing up for a startup yearly plan or higher.</p>
+                                            </li>
+                                            <li>
+                                                <p>For longer document, see the membership preferred fixed fee prices:</p>
+                                            </li>
+                                            <li>
+                                                <p>11-20 page documents $149</p>
+                                            </li>
+                                            <li>
+                                                <p>20+ page documents: consultation required for pricing</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--modal-content-->
+  </div><!--modal-dialog-->
+  <!--modal-->
+	</div>
+
+	<div id="bootBizModal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+               <button type="button" class="close" 
+                data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+                   
+                    
+                    <div class="col-sm-4">
+                <img src="img/popbootstrapbiz.png" class="img-responsive mg-md" />
+                <a class="btn   wire-btn-c-14 btn-xl btn-wire btn-block" type="button" 
+                data-toggle="modal" data-target="#signUpModal">
+          Buy Now
+        </a>
+            </div>
+            <div class="col-sm-8">
+                <h2 class="mg-md ">
+          Bootstrap Plan Details
+        </h2>
+                <p class="">
+                    Book consultations with lawyers licensed in your state on a wide variety of business law related matters that impact your company. Lawyer consultations typically last 30 minutes and each legal matter must be unique. You will also be provided with an annual legal health check up for 60 minutes.
+                </p>
+
+                <div class="panel-group" id="bootbizaccordion">
+  <div class="panel panel-default" id="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#bootbizaccordion" href="#collapseOne2">
+            <strong>Business questions covered</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne2" class="panel-collapse collapse collapse ">
+      <div class="panel-body">
+        <ul>
+		  <li><p>Forming your business</p></li>
+		  <li><p>Business Operations</p></li>
+		  <li><p>Allocating Stock</p></li>
+		  <li><p>LLC vs. C Corp vs. S Corp</p></li>
+		  <li><p>Business Licenses</p></li>
+		  <li><p>Liability Protection</p></li>
+		  <li><p>Terms of Service and Privacy Policy</p></li>
+		  <li><p>Regulations and Compliance</p></li>
+		  <li><p>Convertible notes and equity financing</p></li>
+		</ul>    
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel2">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#bootbizaccordion" href="#collapseTwo2">
+          <strong>Intellectual Property Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+		  <li><p>Trademark Registration</p></li>
+		  <li><p>Copyright Registration</p></li>
+		  <li><p>Patent filing application</p></li>
+		  <li><p>Trademark infringement </p></li>
+		  <li><p>Patent search</p></li>
+		  <li><p>Patent filing opposition</p></li>
+		</ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel3">
+    <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#bootbizaccordion" href="#collapseThree2">
+              <strong>Free Legal Forms for Download</strong>
+            </a>
+          </h4>
+    </div>
+    <div id="collapseThree2" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul>
+              <li><p>NDA</p></li>
+              <li><p>Consulting</p></li>
+              <li><p>Business Services</p></li>
+              <li><p>Independent Contractor</p></li>
+              <li><p>Real Estate</p></li>
+              <li><p>Startup</p></li>
+              <li><p>Advertising/Marketing</p></li>
+              <li><p>and more...</p></li>
+            </ul>
+          </div>
+    </div>
+  </div>
+  <!-- Second Grouping -->
+   <div class="panel panel-default" id="panel4">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#bootbizaccordion" href="#collapseFour2">
+          <strong>Labor &amp; Employment Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Employment agreements</p></li>
+          <li><p>Discrimination and harassment</p></li>
+          <li><p>Wrongful termination</p></li>
+          <li><p>Equity compensation</p></li>
+          <li><p>Pensions and social security</p></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel5">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#bootbizaccordion" href="#collapseFive2">
+            <strong>Immigration Law Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Obtaining immigrant visa</p></li>
+          <li><p>Applying for an O Visa</p></li>
+          <li><p>Applying for an L Visa</p></li>
+          <li><p>Applying for an E-2 Visa</p></li>
+          <li><p>Green card (application/denial)</p></li>
+          <li><p>Detention/Deportation/Removal defense</p></li>
+          <li><p>Petition for citizenship</p></li>
+          <li><p>and more...</p></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+    <div class="panel panel-default" id="panel6">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#bootbizaccordion" href="#collapseSix2">
+          <strong>Legal Document Review</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix2" class="panel-collapse collapse">
+      <div class="panel-body">
+          <ul>
+            <li><p>Get up to 10 pages of a legal document reviewed by signing up
+                for a startup yearly plan or higher.</p></li>
+            <li><p>For longer document, see the membership preferred fixed fee
+                prices:</p></li>
+            <li><p>11-20 page documents $149</p></li>
+            <li><p>20+ page documents: consultation required for pricing</p></li>
+          </ul>      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+                <h5 class="mg-md ">
+          <strong>
+            Additional Benefits:
+          </strong>
+        </h5>
+                <p>
+                    Get a $100 credit towards fixed fee legal projects
+                    <br /> Including LLC, incorporation, trademark, privacy policy &amp; terms of service, copyright registration, convertible notes and more.
+                    <br /> Save 25% on on lawyers standard rates
+                    <br /> Extended lawyer consultations beyond 30 minutes
+                    <br /> Legal representation
+                    <br /> Complex legal issues
+                </p>
+            </div>
+                  
+                </div>
+            </div>
+        </div> <!--modal-content-->
+    </div> <!--modal-dialog-->
+</div> <!--modal-->
+
+
+<div id="startBizModal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+               <button type="button" class="close" 
+                data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+                   
+                    
+                   
+                    <div class="col-sm-4">
+                <img src="img/popstartupbiz.png" class="img-responsive mg-md" />
+                <a class="btn btn-block wire-btn-c-12 btn-wire btn-xl" type="button" 
+                data-toggle="modal" data-target="#signUpModal">
+          Buy Now
+        </a>
+            </div>
+            <div class="col-sm-8">
+                <h2 class="mg-md ">
+          Startup Plan Details
+        </h2>
+                <p class="">
+                    Book consultations with lawyers licensed in your state on a wide variety of business law related matters that impact your company. Lawyer consultations typically last 30 minutes and each legal matter must be unique. You will also be provided with an annual legal health check up for 60 minutes.
+                </p>
+
+                	<div class="panel-group" id="startbizaccordion">
+  <div class="panel panel-default" id="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#startbizaccordion" href="#collapseOne3">
+            <strong>Business questions covered</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne3" class="panel-collapse collapse collapse">
+      <div class="panel-body">
+        <ul>
+		  <li><p>Forming your business</p></li>
+		  <li><p>Business Operations</p></li>
+		  <li><p>Allocating Stock</p></li>
+		  <li><p>LLC vs. C Corp vs. S Corp</p></li>
+		  <li><p>Business Licenses</p></li>
+		  <li><p>Liability Protection</p></li>
+		  <li><p>Terms of Service and Privacy Policy</p></li>
+		  <li><p>Regulations and Compliance</p></li>
+		  <li><p>Convertible notes and equity financing</p></li>
+		</ul>    
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel2">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#startbizaccordion" href="#collapseTwo3">
+          <strong>Intellectual Property Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo3" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+		  <li><p>Trademark Registration</p></li>
+		  <li><p>Copyright Registration</p></li>
+		  <li><p>Patent filing application</p></li>
+		  <li><p>Trademark infringement </p></li>
+		  <li><p>Patent search</p></li>
+		  <li><p>Patent filing opposition</p></li>
+		</ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel3">
+    <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#startbizaccordion" href="#collapseThree3">
+              <strong>Free Legal Forms for Download</strong>
+            </a>
+          </h4>
+    </div>
+    <div id="collapseThree3" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul>
+              <li><p>NDA</p></li>
+              <li><p>Consulting</p></li>
+              <li><p>Business Services</p></li>
+              <li><p>Independent Contractor</p></li>
+              <li><p>Real Estate</p></li>
+              <li><p>Startup</p></li>
+              <li><p>Advertising/Marketing</p></li>
+              <li><p>and more...</p></li>
+            </ul>
+          </div>
+    </div>
+  </div>
+  <!-- Second Grouping -->
+   <div class="panel panel-default" id="panel4">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#startbizaccordion" href="#collapseFour3">
+          <strong>Labor &amp; Employment Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour3" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Employment agreements</p></li>
+          <li><p>Discrimination and harassment</p></li>
+          <li><p>Wrongful termination</p></li>
+          <li><p>Equity compensation</p></li>
+          <li><p>Pensions and social security</p></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel5">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#startbizaccordion" href="#collapseFive3">
+            <strong>Immigration Law Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive3" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Obtaining immigrant visa</p></li>
+          <li><p>Applying for an O Visa</p></li>
+          <li><p>Applying for an L Visa</p></li>
+          <li><p>Applying for an E-2 Visa</p></li>
+          <li><p>Green card (application/denial)</p></li>
+          <li><p>Detention/Deportation/Removal defense</p></li>
+          <li><p>Petition for citizenship</p></li>
+          <li><p>and more...</p></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+    <div class="panel panel-default" id="panel6">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#startbizaccordion" href="#collapseSix3">
+          <strong>Legal Document Review</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix3" class="panel-collapse collapse">
+      <div class="panel-body">
+          <ul>
+            <li><p>Get up to 10 pages of a legal document reviewed by signing up
+                for a startup yearly plan or higher.</p></li>
+            <li><p>For longer document, see the membership preferred fixed fee
+                prices:</p></li>
+            <li><p>11-20 page documents $149</p></li>
+            <li><p>20+ page documents: consultation required for pricing</p></li>
+          </ul>      
+      </div>
+    </div>
+  </div>
+</div>
+
+		
+
+                <h5 class="mg-md ">
+          <strong>
+            Additional Benefits:
+          </strong>
+        </h5>
+                <p>
+                    Get a $100 credit towards fixed fee legal projects
+                    <br /> Including LLC, incorporation, trademark, privacy policy &amp; terms of service, copyright registration, convertible notes and more. Save 25% on on lawyers standard rates
+                    <br /> Extended lawyer consultations beyond 30 minutes
+                    <br /> Legal representation
+                    <br /> Complex legal issues
+                </p>
+            </div>
+                </div>
+            </div>
+        </div> <!--modal-content-->
+    </div> <!--modal-dialog-->
+</div> <!--modal-->
+
+
+
+<div id="growthBizModal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+               <button type="button" class="close" 
+                data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+                   
+                    
+                   
+                  
+                    <div class="col-sm-4">
+                <img src="img/popgrowthbiz.png" class="img-responsive mg-md" />
+                <a class="btn  btn-xl btn-block btn-wire wire-btn-c-18" type="button" 
+                data-toggle="modal" data-target="#signUpModal">
+          Buy Now
+        </a>
+            </div>
+            <div class="col-sm-8">
+                <h2 class="mg-md ">
+          Growth Plan Details
+        </h2>
+                <p class="">
+                    Book consultations with lawyers licensed in your state on a wide variety of business law related matters that impact your company. Lawyer consultations typically last 30 minutes and each legal matter must be unique. You will also be provided with an annual legal health check up for 60 minutes.
+                </p>
+
+                	<div class="panel-group" id="growthbizaccordion">
+  <div class="panel panel-default" id="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#growthbizaccordion" href="#collapseOne4">
+            <strong>Business questions covered</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne4" class="panel-collapse collapse collapse">
+      <div class="panel-body">
+        <ul>
+		  <li><p>Forming your business</p></li>
+		  <li><p>Business Operations</p></li>
+		  <li><p>Allocating Stock</p></li>
+		  <li><p>LLC vs. C Corp vs. S Corp</p></li>
+		  <li><p>Business Licenses</p></li>
+		  <li><p>Liability Protection</p></li>
+		  <li><p>Terms of Service and Privacy Policy</p></li>
+		  <li><p>Regulations and Compliance</p></li>
+		  <li><p>Convertible notes and equity financing</p></li>
+		</ul>    
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel2">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#growthbizaccordion" href="#collapseTwo4">
+          <strong>Intellectual Property Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo4" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+		  <li><p>Trademark Registration</p></li>
+		  <li><p>Copyright Registration</p></li>
+		  <li><p>Patent filing application</p></li>
+		  <li><p>Trademark infringement </p></li>
+		  <li><p>Patent search</p></li>
+		  <li><p>Patent filing opposition</p></li>
+		</ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel3">
+    <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#growthbizaccordion" href="#collapseThree4">
+              <strong>Free Legal Forms for Download</strong>
+            </a>
+          </h4>
+    </div>
+    <div id="collapseThree4" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul>
+              <li><p>NDA</p></li>
+              <li><p>Consulting</p></li>
+              <li><p>Business Services</p></li>
+              <li><p>Independent Contractor</p></li>
+              <li><p>Real Estate</p></li>
+              <li><p>Startup</p></li>
+              <li><p>Advertising/Marketing</p></li>
+              <li><p>and more...</p></li>
+            </ul>
+          </div>
+    </div>
+  </div>
+  <!-- Second Grouping -->
+   <div class="panel panel-default" id="panel4">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#growthbizaccordion" href="#collapseFour4">
+          <strong>Labor &amp; Employment Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour4" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Employment agreements</p></li>
+          <li><p>Discrimination and harassment</p></li>
+          <li><p>Wrongful termination</p></li>
+          <li><p>Equity compensation</p></li>
+          <li><p>Pensions and social security</p></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel5">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#growthbizaccordion" href="#collapseFive4">
+            <strong>Immigration Law Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive4" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Obtaining immigrant visa</p></li>
+          <li><p>Applying for an O Visa</p></li>
+          <li><p>Applying for an L Visa</p></li>
+          <li><p>Applying for an E-2 Visa</p></li>
+          <li><p>Green card (application/denial)</p></li>
+          <li><p>Detention/Deportation/Removal defense</p></li>
+          <li><p>Petition for citizenship</p></li>
+          <li><p>and more...</p></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+    <div class="panel panel-default" id="panel6">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#growthbizaccordion" href="#collapseSix4">
+          <strong>Legal Document Review</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix4" class="panel-collapse collapse">
+      <div class="panel-body">
+          <ul>
+            <li><p>Get up to 10 pages of a legal document reviewed by signing up
+                for a startup yearly plan or higher.</p></li>
+            <li><p>For longer document, see the membership preferred fixed fee
+                prices:</p></li>
+            <li><p>11-20 page documents $149</p></li>
+            <li><p>20+ page documents: consultation required for pricing</p></li>
+          </ul>      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+                <h5 class="mg-md ">
+          <strong>
+            Additional Benefits:
+          </strong>
+        </h5>
+                <p>
+                    Get a $100 credit towards fixed fee legal projects Including LLC, incorporation, trademark, privacy policy &amp; terms of service, copyright registration, convertible notes and more.
+                    <br /> Save 25% on on lawyers standard rates
+                    <br /> Extended lawyer consultations beyond 30 minutes
+                    <br /> Legal representation
+                    <br /> Complex legal issues
+                </p>
+            </div>
+                </div>
+            </div>
+        </div> <!--modal-content-->
+    </div> <!--modal-dialog-->
+</div> <!--modal-->
+
+
+
+<div id="freeFamModal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+               <button type="button" class="close" 
+                data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+                   
+                    
+                   
+                  <div class="col-sm-4">
+                <img src="img/popfreefam.png" class="img-responsive mg-md" />
+                <a class="btn btn-xl btn-block btn-wire wire-btn-c-17" type="button" 
+                data-toggle="modal" data-target="#signUpModal">
+          Sign Up Free
+        </a>
+            </div>
+            <div class="col-sm-8">
+                <h2 class="mg-md ">
+          Free Plan Details
+        </h2>
+                <p class="">
+                    Book consultations with lawyers licensed in your state on a wide variety of personal and family related matters. Lawyer consultations typically last 30 minutes and each legal matter must be unique. You will also be provided with an annual legal strategy session of up for 60 minutes.
+                </p>
+                <div class="panel-group" id="freefamaccordion">
+  <div class="panel panel-default" id="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#freefamaccordion" href="#collapseOne5">
+            <strong>Wills, Trusts &amp; Estate Questions</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne5" class="panel-collapse collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Wills / Living Trust</p></li>
+		  <li><p>Estate Planning / Estate Taxes</p></li>
+		  <li><p>Power of Attorney</p></li>
+		  <li><p>Gifts</p></li>
+		  <li><p>Trust Funding</p></li>
+		  <li><p>Real Estate Deed Transfers</p></li>
+		  <li><p>and more</p></li>
+		</ul>    
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel2">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#freefamaccordion" href="#collapseTwo5">
+          <strong>Personal Injury Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo5" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+		  <li><p>Medical Malpractice</p></li>
+		  <li><p>Motor Vehicle Accident</p></li>
+		  <li><p>Animal Attack</p></li>
+		  <li><p>Premises Liability</p></li>
+		  <li><p>Product Liability</p></li>
+		  <li><p>Toxic Exposure</p></li>
+          <li><p>Work Related injuries</p></li>
+		  <li><p>Wrongful Death</p></li> 
+		</ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel3">
+    <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#freefamaccordion" href="#collapseThree5">
+              <strong>Family Legal Matters</strong>
+            </a>
+          </h4>
+    </div>
+    <div id="collapseThree5" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul>
+              <li><p>Marriage</p></li>
+              <li><p>Divorce</p></li>
+              <li><p>Adoption</p></li>
+              <li><p>Child Custody</p></li>
+              <li><p>Child Support</p></li>
+            </ul>
+          </div>
+    </div>
+  </div>
+  <!-- Second Grouping -->
+   <div class="panel panel-default" id="panel4">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#freefamaccordion" href="#collapseFour5">
+          <strong>Financial Legal Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour5" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Bankruptcy</p></li>
+          <li><p>Contracts</p></li>
+          <li><p>Lawsuits and disputes</p></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel5">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#freefamaccordion" href="#collapseFive5">
+            <strong>Real Estate</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive5" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Foreclosure</p></li>
+          <li><p>Home Sales</p></li>
+          <li><p>Landlord/tenant Issues</p></li>
+          <li><p>Airbnb Issues</p></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+    <div class="panel panel-default" id="panel6">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#freefamaccordion" href="#collapseSix5">
+          <strong>Legal Document Review</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix5" class="panel-collapse collapse">
+      <div class="panel-body">
+          <ul>
+            <li><p>Get up to 10 pages of a legal document reviewed by signing up
+                for a startup yearly plan or higher.</p></li>
+            <li><p>For longer document, see the membership preferred fixed fee
+                prices:</p></li>
+            <li><p>11-20 page documents $149</p></li>
+            <li><p>20+ page documents: consultation required for pricing</p></li>
+          </ul>      
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+           
+                </div>
+            </div>
+        </div> <!--modal-content-->
+    </div> <!--modal-dialog-->
+</div> <!--modal-->
+
+
+
+<div id="soloFamModal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+               <button type="button" class="close" 
+                data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+                   
+                    
+                   
+                    <div class="col-sm-4">
+                <img src="img/popsolofam.png" class="img-responsive mg-md" />
+                <a class="btn   btn-block btn-xl btn-wire wire-btn-c-20" type="button" 
+                data-toggle="modal" data-target="#signUpModal">
+          Buy Now
+        </a>
+            </div>
+            <div class="col-sm-8">
+                <h2 class="mg-md ">
+          Solo Plan Details
+        </h2>
+                <p class="">
+                    Book consultations with lawyers licensed in your state on a wide variety of personal and family related matters. Lawyer consultations typically last 30 minutes and each legal matter must be unique. You will also be provided with an annual legal strategy session of up for 60 minutes.
+                </p>
+
+                	<div class="panel-group" id="solofamaccordion">
+  <div class="panel panel-default" id="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#solofamaccordion" href="#collapseOne6">
+            <strong>Wills, Trusts &amp; Estate Questions</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne6" class="panel-collapse collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Wills / Living Trust</p></li>
+		  <li><p>Estate Planning / Estate Taxes</p></li>
+		  <li><p>Power of Attorney</p></li>
+		  <li><p>Gifts</p></li>
+		  <li><p>Trust Funding</p></li>
+		  <li><p>Real Estate Deed Transfers</p></li>
+		  <li><p>and more</p></li>
+		</ul>    
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel2">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#solofamaccordion" href="#collapseTwo6">
+          <strong>Personal Injury Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo6" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+		  <li><p>Medical Malpractice</p></li>
+		  <li><p>Motor Vehicle Accident</p></li>
+		  <li><p>Animal Attack</p></li>
+		  <li><p>Premises Liability</p></li>
+		  <li><p>Product Liability</p></li>
+		  <li><p>Toxic Exposure</p></li>
+          <li><p>Work Related injuries</p></li>
+		  <li><p>Wrongful Death</p></li> 
+		</ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel3">
+    <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#solofamaccordion" href="#collapseThree6">
+              <strong>Family Legal Matters</strong>
+            </a>
+          </h4>
+    </div>
+    <div id="collapseThree6" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul>
+              <li><p>Marriage</p></li>
+              <li><p>Divorce</p></li>
+              <li><p>Adoption</p></li>
+              <li><p>Child Custody</p></li>
+              <li><p>Child Support</p></li>
+            </ul>
+          </div>
+    </div>
+  </div>
+  <!-- Second Grouping -->
+   <div class="panel panel-default" id="panel4">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#solofamaccordion" href="#collapseFour6">
+          <strong>Financial Legal Matters</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour6" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Bankruptcy</p></li>
+          <li><p>Contracts</p></li>
+          <li><p>Lawsuits and disputes</p></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel5">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#solofamaccordion" href="#collapseFive6">
+            <strong>Real Estate</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive6" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li><p>Foreclosure</p></li>
+          <li><p>Home Sales</p></li>
+          <li><p>Landlord/tenant Issues</p></li>
+          <li><p>Airbnb Issues</p></li>
+        </ul>      
+      </div>
+    </div>
+  </div>
+    <div class="panel panel-default" id="panel6">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#solofamaccordion" href="#collapseSix6">
+          <strong>Legal Document Review</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix6" class="panel-collapse collapse">
+      <div class="panel-body">
+          <ul>
+            <li><p>Get up to 10 pages of a legal document reviewed by signing up
+                for a startup yearly plan or higher.</p></li>
+            <li><p>For longer document, see the membership preferred fixed fee
+                prices:</p></li>
+            <li><p>11-20 page documents $149</p></li>
+            <li><p>20+ page documents: consultation required for pricing</p></li>
+          </ul>      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+                <h5 class="mg-md ">
+          <strong>
+            Additional Benefits:
+          </strong>
+        </h5>
+                <p>
+                    Get a $100 credit towards fixed fee legal projects
+                    <br /> Including LLC, incorporation, trademark, privacy policy &amp; terms of service, copyright registration, convertible notes and more.
+                    <br /> Save 25% on on lawyers standard rates
+                    <br /> Extended lawyer consultations beyond 30 minutes
+                    <br /> Legal representation
+                    <br /> Complex legal issues
+                </p>
+            </div>
+                    
+                    
+                    
+          
+                </div>
+            </div>
+        </div> <!--modal-content-->
+    </div> <!--modal-dialog-->
+</div> <!--modal-->
+
+
+
+
+<div id="famFamModal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+                    <div class="col-sm-4">
+                        <img src="img/popfamfam.png" class="img-responsive mg-md" /> 
+                        <a class="btn btn-xl btn-block btn-wire wire-btn-c-19" type="button" 
+                        data-toggle="modal" data-target="#signUpModal">
+          						Buy Now
+        						</a>
+
+                    </div>
+                    <div class="col-sm-8">
+                         <h2 class="mg-md ">
+          Family Plan Details
+        </h2>
+
+                        <p class="">Book consultations with lawyers licensed in your state on a wide variety of personal and family related matters. Lawyer consultations typically last 30 minutes and each legal matter must be unique. You will also be provided with an annual legal strategy session of up for 60 minutes.</p>
+                        <div class="panel-group" id="famfamaccordion">
+                            <div class="panel panel-default" id="panel">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#famfamaccordion" href="#collapseOne7">
+            <strong>Wills, Trusts &amp; Estate Questions</strong>
+        </a>
+      </h4>
+
+                                </div>
+                                <div id="collapseOne7" class="panel-collapse collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Wills / Living Trust</p>
+                                            </li>
+                                            <li>
+                                                <p>Estate Planning / Estate Taxes</p>
+                                            </li>
+                                            <li>
+                                                <p>Power of Attorney</p>
+                                            </li>
+                                            <li>
+                                                <p>Gifts</p>
+                                            </li>
+                                            <li>
+                                                <p>Trust Funding</p>
+                                            </li>
+                                            <li>
+                                                <p>Real Estate Deed Transfers</p>
+                                            </li>
+                                            <li>
+                                                <p>and more</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default" id="panel2">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#famfamaccordion" href="#collapseTwo7">
+          <strong>Personal Injury Matters</strong>
+        </a>
+      </h4>
+
+                                </div>
+                                <div id="collapseTwo7" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Medical Malpractice</p>
+                                            </li>
+                                            <li>
+                                                <p>Motor Vehicle Accident</p>
+                                            </li>
+                                            <li>
+                                                <p>Animal Attack</p>
+                                            </li>
+                                            <li>
+                                                <p>Premises Liability</p>
+                                            </li>
+                                            <li>
+                                                <p>Product Liability</p>
+                                            </li>
+                                            <li>
+                                                <p>Toxic Exposure</p>
+                                            </li>
+                                            <li>
+                                                <p>Work Related injuries</p>
+                                            </li>
+                                            <li>
+                                                <p>Wrongful Death</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default" id="panel3">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#famfamaccordion" href="#collapseThree7">
+              <strong>Family Legal Matters</strong>
+            </a>
+          </h4>
+
+                                </div>
+                                <div id="collapseThree7" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Marriage</p>
+                                            </li>
+                                            <li>
+                                                <p>Divorce</p>
+                                            </li>
+                                            <li>
+                                                <p>Adoption</p>
+                                            </li>
+                                            <li>
+                                                <p>Child Custody</p>
+                                            </li>
+                                            <li>
+                                                <p>Child Support</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Second Grouping -->
+                            <div class="panel panel-default" id="panel4">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#famfamaccordion" href="#collapseFour7">
+          <strong>Financial Legal Matters</strong>
+        </a>
+      </h4>
+
+                                </div>
+                                <div id="collapseFour7" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Bankruptcy</p>
+                                            </li>
+                                            <li>
+                                                <p>Contracts</p>
+                                            </li>
+                                            <li>
+                                                <p>Lawsuits and disputes</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default" id="panel5">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#famfamaccordion" href="#collapseFive7">
+            <strong>Real Estate</strong>
+        </a>
+      </h4>
+
+                                </div>
+                                <div id="collapseFive7" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Foreclosure</p>
+                                            </li>
+                                            <li>
+                                                <p>Home Sales</p>
+                                            </li>
+                                            <li>
+                                                <p>Landlord/tenant Issues</p>
+                                            </li>
+                                            <li>
+                                                <p>Airbnb Issues</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default" id="panel6">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#famfamaccordion" href="#collapseSix7">
+          <strong>Legal Document Review</strong>
+        </a>
+      </h4>
+
+                                </div>
+                                <div id="collapseSix7" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <p>Get up to 10 pages of a legal document reviewed by signing up for a startup yearly plan or higher.</p>
+                                            </li>
+                                            <li>
+                                                <p>For longer document, see the membership preferred fixed fee prices:</p>
+                                            </li>
+                                            <li>
+                                                <p>11-20 page documents $149</p>
+                                            </li>
+                                            <li>
+                                                <p>20+ page documents: consultation required for pricing</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <h5 class="mg-md ">
+          <strong>
+            Additional Benefits:
+          </strong>
+        </h5>
+
+                        <p>Get a $100 credit towards fixed fee legal projects
+                            <br />Including LLC, incorporation, trademark, privacy policy &amp; terms of service, copyright registration, convertible notes and more.
+                            <br />Save 25% on on lawyers standard rates
+                            <br />Extended lawyer consultations beyond 30 minutes
+                            <br />Legal representation
+                            <br />Complex legal issues</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--modal-content-->
+</div>
+<!--modal-dialog-->
+<!--modal-->
+
+
+<!-- Pricing Details Modals END -->
+
+<!-- Sign Up Modal -->
+<div id="signUpModal" class="modal fade">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-body">
+               <button type="button" class="close" 
+                data-dismiss="modal">&times;</button>
+                <div class="container-fluid">  
+            			<div class="row">
+                    <h3 class="mg-md text-center  ">
+            					Sign up for larry today.
+          					</h3>
+	                  <div class="divider-h">
+	                    <span class="divider"></span>
+	                  </div>
+            			</div>
+                  <form id="form-2" novalidate>
+                    <div class="form-group">
+	                    <div class="col-sm-6 col-md-6">
+		                    <label>
+		                        First Name
+		                    </label>
+	                      <input id="first-name" class="form-control" />
+	                    </div>
+                    </div>
+                        <!-- firstname -->
+                    <div class="form-group">
+                        <div class="col-sm-6 col-md-6">
+                            <label>
+                                Last Name
+                            </label>
+                            <input id="name2" class="form-control" />
+                        </div>
+                    </div>
+                    <!-- lastname -->
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <label>
+                                Email
+                            </label>
+                            <input id="email2" class="form-control" type="email" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <label>
+                                Phone
+                            </label>
+                            <input id="email2" class="form-control" required maxlength="10" />
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a class="bloc-button btn btn-lg btn-c-6" style="margin-top:30px;"type="button" 
+                        data-toggle="modal" data-target="#confModal">
+                            Sign Up
+                        </a>
+                        <p>
+                            By continuing I agree to larry's
+                            <a href="terms-of-service.html" target="_blank">
+              								Terms of Service
+            								</a> and
+                            <a href="privacy-policy.html" target="_blank">
+              								Privacy Policy
+            								</a>
+                        </p>
+                        <p>
+                            Already a user? Sign in.
+                        </p>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div> <!--modal-content-->
+    </div> <!--modal-dialog-->
+</div> <!--modal-->
+</div>
+<!-- Sign Up Modal END-->
+
+<!-- Conf Modal-->
+<div id="confModal" class="modal fade">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-body">
+               <button type="button" class="close" 
+                data-dismiss="modal">&times;</button>
+                <div class="container-fluid">
+                    <br/><br/><br/><br/><br/><br/>
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <img class="img-responsive img-circle " src="img/checkmark.gif" />
+                    </div>
+                    <div class="col-sm-12 ">
+                        <h3 class="text-center ">
+                            You&rsquo;re all set! Check your phone for a text.
+                        </h3>
+                    </div>
+                
+            </div>
+        </div>
+      </div> 
+    </div>
+</div>   
+<!-- Conf Modal END-->
+
+
+    <!-- bloc-2 -->
+    <div class="bloc l-bloc" id="bloc-2" >
+        <div class="container bloc-md" style="max-height:1170px;">
+            
+            <div class="row">
+                
+                <div class="col-md-10 col-md-offset-1">
+                    <h2 class="mg-md  text-center">
+                    <br/>
+                    <div>
+                        <img src="./img/fingerprint.png" class="img-responsive mg-md center-block" height="75" width="75">
+                    </div>
+                        We're buliding the simplest interface to get legal work done, so you can make the right
+                        decisons that impact your life.
+                    <br/><br/><br/><br/><br/>
+          			</h2>
+                    <div class="divider-h">
+                        <span class="divider divider-half"></span>
+                    </div>		
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bloc-2 END -->
+
+    <!-- bloc-3 (telephono)-->
+    <div class="bloc l-bloc" id="bloc-3" >
+        <div class="container bloc-md">
+            <div class="row">
+                <div class="col-sm-12">
+                <div class="col-sm-8">
+                    <h2 class="mg-md text-left"><strong>Legal, Reimagined.</strong></h2>
+                    <h3 class=" text-left ">
+                    <br/>
+                    Larry is designed to accommodate the legal needs of busy individuals (aka you). Use Larry to find lawyers, ask questions, purchase legal services, and more. Backed by machine and a huge network of attorneys, Larry can easily navigate complex legal situations
+                    </h3>
+                </div>
+                <div class="col-sm-4">
+                    <div class="content" data-sr="enter right wait 0.2s hustle 60% scale up 70% reset" >
+    <div class="chat-window">
+        <div class="chat-messages">
+            <ol class="chat-messages-list">
+                <li class="chat-message chat-message-friend">
+                    <div class="chat-message-bubble">Hey there I'm larry!</div>
+                </li>
+                <li class="chat-message chat-message-friend">
+                    <div class="chat-message-bubble">Ask me a legal questions and I'll send you an answer :)</div>
+                </li>
+                
+            </ol>
+        </div>
+        <div class="chat-input-bar">
+            <div class="chat-info-container"></div>
+            <div class="chat-effect-container">
+                <div class="chat-effect-bar"></div>
+            </div>
+            <div class="chat-input-wrapper">
+                <button class="chat-input-tool">    <i class="icon icon-camera"></i>
+
+                </button>
+                <div class="chat-input" contenteditable></div>
+                <button class="chat-send">  <i class="fa fa-paper-plane"></i>
+
+                </button>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                  <feComposite in="SourceGraphic" in2="goo" />
+                </filter>
+              </defs>
+    </svg>
+</div>   
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+<!-- bloc-3 END -->
+
+<!-- bloc-4  -->
+<div class="bloc l-bloc" id="bloc-4" >
+        <div class="container bloc-md" style="max-height:1170px;">
+            <div class="row">
+                <div class="col-sm-12">
+                <div class="col-sm-4 " data-sr="enter left wait 0.2s hustle 60% scale up 70% reset" >
+                    <img src="img/lillawyers.png" class="img-responsive mg-md center-block" >
+                </div>
+                <div class="col-sm-8">
+                    <h2 class="mg-md text-right"><strong>Better help starts with extraordinary lawyers</strong></h2>
+                    <h3 class="mg-md text-right">
+                      We’re like a lawyer in the family. Our trusted team of attorneys work hard to answer your questions and save you money. They go through rigorous screening, training, and ongoing quality assurance (we don’t mess around)
+                    </h3>
+                </div>
+                </div>
+            </div>
+            <div class="divider-h" style="margin-top:100px;">
+                <span class="divider divider-half"></span>
+            </div>
+        </div>
+    </div>
+<!-- bloc-4 END -->
+
+<!-- Gone but not forgotten 
+<div lass="bloc  l-bloc" id="bloc-6">
+<div class="container bloc-lg">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/newgraph.jpg" class="img-responsive"/>
+                <h2 class="mg-md text-center " data-sr="enter bottom over 0.7s reset" 
+                style="margin-bottom:100px;">
+                    Text a legal need &amp; I&rsquo;ll connect you to an attorney right away.
+                </h2> 
+                
+            </div>
+        </div>
+        <div class="row voffset">
+            <div class="col-sm-6">
+                <img src="img/firstquestion.png" class="img-responsive mg-md center-block "
+                data-sr="enter left over 0.5s hustle 40% scale up 70% reset" />
+            </div>
+            <div class="col-sm-6">
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <img src="img/firstanswer.png" class="img-responsive mg-md center-block" 
+                data-sr="vF 0.3 enter right wait 0.2s hustle 60% scale up 70% reset"/>   
+            </div>
+            <div class="col-sm-6">
+
+                <img src="img/secondquestion.png" class="img-responsive mg-md center-block "
+                data-sr="enter left over 0.5s hustle 40% scale up 70% reset" />
+            </div>
+            <div class="col-sm-6">
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <img src="img/secondanswer.png" class="img-responsive mg-md center-block" 
+                data-sr="vF 0.3 enter right wait 1.4s hustle 60% scale up 70% reset"/>   
+            </div>
+            <div class="col-sm-6">
+                <br/><br/><br/>
+                <img src="img/thirdquestion.png" class="img-responsive mg-md center-block "
+                data-sr="enter left over 0.5s hustle 40% scale up 70% reset" />
+            </div>
+            <div class="col-sm-6">
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <img src="img/thirdanswer.png" class="img-responsive mg-md center-block" 
+                data-sr="vF 0.3 enter right wait 0.2s hustle 60% scale up 70% reset"/>   
+            </div>
+            <div class="col-sm-6">
+                <img src="img/fourthquestion.png" class="img-responsive mg-md center-block "
+                data-sr="enter left over 0.5s hustle 40% scale up 70% reset" />
+            </div>
+            <div class="col-sm-6">
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <img src="img/fourthanswer.png" class="img-responsive mg-md center-block" 
+                data-sr="vF 0.3 enter right wait 0.2s hustle 60% scale up 70% reset"/>   
+            </div>
+        </div>
+</div>
+</div>
+-->
+
+
+<div class="bloc l-bloc" id="bloc-4" >
+        <div class="container bloc-md" style="max-height:1170px;">
+            <div class="row">
+                <div style="margin-bottom:70px;">
+                 <h2 class="mg-md text-center " data-sr="enter bottom over 0.7s reset">
+                    <strong>Larry's Basics</strong>
+                    <br/>
+                </h2>
+                <h3>Live life, let larry handle the rest</h3>
+                </div>
+                <div class="col-md-10 col-md-offset-1 " >
+                    <img src="./img/group_720.png" class="img-responsive mg-md center-block">
+                </div>
+        </div>
+        <div class="divider-h" style="margin-top:120px;">
+            <span class="divider divider-half"></span>
+      </div>
+    </div>
+</div>
+<!-- Cards END-->
+
+<!-- Testimonials -->
+<div class="bloc l-bloc" id="bloc-4" >
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="col-md-10 col-sm-offset-1 ">
+              <div id ="slider-for" style="margin-top:20px;">            
+                <div class="panel">
+                    <img src="./img/twitter_testa.png" class="img-responsive mg-md center-block">
+                </div> 
+                <div class="panel">
+                    <img src="./img/liz_testa.png" class="img-responsive mg-md center-block">
+                </div>
+                <div class="panel">
+                    <img src="./img/ph_testa.png" class="img-responsive mg-md center-block">
+                </div>
+                <div class="panel">
+                    <img src="./img/lh_testa.png" class="img-responsive mg-md center-block"/>
+                </div>
+                <div class="panel">
+                    <img src="./img/bevy_testa.png" class="img-responsive mg-md center-block"/>
+                </div>
+              </div>
+            </div> 
+            
+          
+        </div>
+
+      </div> <!-- row -->
+      <div class="divider-h" style="margin-top:120px;">
+            <span class="divider divider-half"></span>
+      </div>
+    </div> <!--  container fluid--> 
+</div>
+<!-- Testimonials END -->
+
+<!-- sigunp-bloc -->
+<div class="bloc  l-bloc" id="sigunp-bloc" >
+        <div class="container bloc-lg">
+            <div class="container">
+            <h2 class="mg-md text-center " data-sr="enter bottom over 0.7s reset">
+                Hello, I'm Larry.
+            </h2> 
+            <h4 class="" data-sr="enter bottom over 0.7s reset">
+                I don't believe we've met.
+            </h4>
+            <!-- Top Navigation -->
+                <form id="theForm" class="simform" autocomplete="off">
+                    <div class="simform-inner">
+                        <ol class="questions">
+                            <li>
+                                <span><label for="q1">What's your name?</label></span>
+                                <input id="q1" name="q1" type="text" placeholder="First and Last Name"/>
+                            </li>
+                            <li>
+                                <span><label for="q2">What's your phone number?</label></span>
+                                <input id="q2" name="q2" type="text" placeholder=""/>
+                            </li>
+                            <li>
+                                <span><label for="q2">and email?</label></span>
+                                <input id="q2" name="q3" type="text" placeholder=""/>
+                            </li>
+                            <li>
+                                <span><label for="q2">Create a password and your done</label></span>
+                                <input id="q2" name="q4" type="text" placeholder=""/>
+                            </li>
+                        </ol><!-- /questions -->
+                        <button class="submit" type="submit">Send answers</button>
+                        <div class="controls">
+                            <button class="next"></button>
+                            <div class="progress"></div>
+                            <span class="number">
+                                <span class="number-current"></span>
+                                <span class="number-total"></span>
+                            </span>
+                            <span class="error-message"></span>
+                        </div><!-- / controls -->
+                    </div><!-- /simform-inner -->
+                    <span class="final-message"></span>
+                </form><!-- /simform -->            
+            <h5 class="" data-sr="enter bottom over 0.7s reset">
+                By signing up you're agreeing to our <a href="terms-of-service.html"
+                style="color:#39ae9d;">Terms & Condtions </a>
+            </h5>
+            
+        </div><!-- /container -->
+        </div>
+    </div>
+     <!--sigunp-bloc END -->
+     <!-- Clouds -->
+    <svg id="clouds" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M-5 100 Q 0 20 5 100 Z
+                         M0 100 Q 5 0 10 100
+                         M5 100 Q 10 30 15 100
+                         M10 100 Q 15 10 20 100
+                         M15 100 Q 20 30 25 100
+                         M20 100 Q 25 -10 30 100
+                         M25 100 Q 30 10 35 100
+                         M30 100 Q 35 30 40 100
+                         M35 100 Q 40 10 45 100
+                         M40 100 Q 45 50 50 100
+                         M45 100 Q 50 20 55 100
+                         M50 100 Q 55 40 60 100
+                         M55 100 Q 60 60 65 100
+                         M60 100 Q 65 50 70 100
+                         M65 100 Q 70 20 75 100
+                         M70 100 Q 75 45 80 100
+                         M75 100 Q 80 30 85 100
+                         M80 100 Q 85 20 90 100
+                         M85 100 Q 90 50 95 100
+                         M90 100 Q 95 25 100 100
+                         M95 100 Q 100 15 105 100 Z">
+                </path>
+    </svg>
+    <!-- Clouds END-->
+    <!-- Footer - bloc-20 -->
+    <div class="bloc  d-bloc" id="bloc-20">
+        <div class="container bloc-md">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3 class="mg-md tc-5 ">
+            <a class="ltc-5" href="index.html">
+              larry.
+            </a>
+          </h3>
+                    <h6 class="sm-shadow mg-sm ">
+            <a onclick="scrollToTarget('1')">
+              Home
+            </a>
+          </h6>
+                    <br />
+                    <a href="index.html">
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="mg-md tc-5  ">
+                    Legal
+                    </h3>
+                    <h6 class="mg-sm sm-shadow ">
+                    <a href="privacy-policy.html" target="_blank">
+                    Privacy Policy
+                    </a>
+                    </h6>
+                    <h6 class="mg-md sm-shadow ">
+                    <a href="terms-of-service.html" target="_blank">
+                    Terms of Service
+                    </a>
+                </h6>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="mg-md ">
+            Contact
+          </h3>
+                    <h3 class="mg-md ">
+            <a href="mailto:hello@lawtrades.com" target="_blank">
+              hello@lawtrades.com
+            </a>
+          </h3>
+            <h3>
+                844-LAWYRME
+            </h3>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="mg-md tc-5 ">
+            Social
+          </h3>
+                    <a href="https://www.facebook.com/Lawtrades" target="_blank">
+                        <span class="fa fa-facebook icon-md ">
+            </span>
+                    </a>
+                    <a href="https://twitter.com/lawtrades" target="_blank">
+                        <span class="fa fa-twitter icon-md ">
+            </span>
+                    </a>
+                    <a href="https://instagram.com/lawtrades/" target="_blank">
+                        <span class="fa fa-instagram icon-md ">
+            </span>
+                    </a>
+                    <a href="https://plus.google.com/+LawTrades" target="_blank">
+                        <span class="fa fa-google-plus-square icon-md ">
+            </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer - bloc-20 END -->
+    
+    </div>
+    <!-- Main container END -->
+
+    <!-- Scripts -->
+    <script src="./js/TweenMax.min.js"></script>
+    <script src="./js/classie.js"></script>
+    <script src="./js/form.js"></script>
+    <script src='./js/scrollReveal.js'></script>
+    <script>
+
+      window.sr = new scrollReveal();
+
+    </script>
+
+    <!-- TYPEWRITE SCRIPT -->
+    <script type="text/javascript">
+    $(document).ready((function() {
+        $('h1').t({
+            /*basic settings*/
+            speed: 63, // typing speed (ms)
+            speed_vary: false, // delays start for (N.)Ns
+            mistype: false, // mistyping: 1:N per char
+            locale: 'en', // keyboard layout; 'en', 'de' 
+            blink: false, // blink; if TRUE, 10ms or N ms
+            tag: 'span',
+            rtl: true,
+            fin: function(e) {
+                _e = e.find('.t-caret');
+                setInterval(function() {
+                    _e.toggleClass('vis');
+                }, 5e2)
+            }
+        });
+    }));
+    /*]]>*/
+    </script>
+    <script src="./js/modalEffects.js"></script>
+    <script type="text/javascript">
+    // Load Slick Carousel on document load-->
+    $(document).ready(function() {
+        $('#slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            autoplay: true,
+            infinite: true,
+            dots: true,
+            initialSlide: 1,
+            autoplaySpeed: 2000,
+        });
+    });
+    </script>
+    <script>
+            var theForm = document.getElementById( 'theForm' );
+
+            new stepsForm( theForm, {
+                onSubmit : function( form ) {
+                    // hide form
+                    classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
+
+                    /*
+                    form.submit()
+                    or
+                    AJAX request (maybe show loading indicator while we don't have an answer..)
+                    */
+
+                    // let's just simulate something...
+                    var messageEl = theForm.querySelector( '.final-message' );
+                    messageEl.innerHTML = 'All done! Check your phone for a text';
+                    classie.addClass( messageEl, 'show' );
+                }
+            } );
+    </script>
+</body>
+<!-- Google Analytics -->
+<script>
+(function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+ga('create', 'UA-64708292-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics END -->
+
+</html>
